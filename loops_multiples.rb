@@ -18,4 +18,10 @@
 # 20
 
 p "Enter a number:"
+user_input = gets.chomp
+count = 1
 
+10.times do
+  p user_input.to_i*count.to_i
+  count = count + 1
+end
